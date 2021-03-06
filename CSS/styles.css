@@ -453,6 +453,12 @@ Main Page - HERO */
 
 /* Footer - address and contact links */
 
+footer {
+  background-color: var(--h1-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address-text {
   font-size: 14px;
   line-height: 1.7;
@@ -464,12 +470,6 @@ Main Page - HERO */
   line-height: 1.7;
   color: var(--footer-text-color);
   transition: color 250ms var(--cubic);
-}
-
-footer {
-  background-color: var(--h1-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-address-container {
@@ -506,6 +506,10 @@ footer {
   color: var(--white-color);
 }
 
+.footer-social-container {
+  margin-right: 93px;
+}
+
 .footer-social-list {
   display: flex;
   align-items: center;
@@ -531,6 +535,58 @@ footer {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+}
+
+.sign-up-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sign-up-label {
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.sign-up-input {
+  display: block;
+  margin-top: 20px;
+  width: 358px;
+  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--footer-text-color);
+  background-color: var(--h1-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  border-radius: 4px;
+}
+
+.sign-up-btn {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  outline: none;
+  border-radius: 4px;
+}
+
+.telegram-icon {
+  margin-left: 10px;
 }
 
 /* PORTFOLIO.HTML
@@ -680,8 +736,9 @@ FILTER BUTTONS*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-height: 581px;
-  min-width: 528px;
+  padding: 40px;
+  height: 581px;
+  width: 528px;
   transition: transform 250ms var(--cubic);
   border-radius: 4px;
   background-color: var(--white-color);
@@ -699,4 +756,21 @@ FILTER BUTTONS*/
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+
+/* BACKDROP-FORM */
+
+.call-back-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.call-back-input,
+.call-back-comment {
+  width: 100%;
+  resize: none;
 }

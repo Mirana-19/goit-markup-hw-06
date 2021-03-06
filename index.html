@@ -491,6 +491,25 @@
             </li>
           </ul>
         </div>
+
+        <form class="sign-up-form" name="sign-up-form" action="">
+          <label class="sign-up-label">
+            Подпишитесь на рассылку
+            <input
+              class="sign-up-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+
+          <button type="submit" class="sign-up-btn">
+            Подписаться
+            <svg width="24" height="24" class="telegram-icon">
+              <use href="./images/icons-sprite.svg#telegram"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
@@ -500,6 +519,39 @@
             <use href="./images/icons-sprite.svg#cross"></use>
           </svg>
         </button>
+        <form class="call-back-form" name="call-back-form">
+          <p>Оставьте свои данные, мы вам перезвоним</p>
+
+          <label>
+            Имя
+            <input class="call-back-input" name="name" type="name" />
+          </label>
+
+          <label>
+            Телефон
+            <input class="call-back-input" name="email" type="tel" />
+          </label>
+
+          <label>
+            Почта
+            <input class="call-back-input" name="email" type="email" />
+          </label>
+
+          <label>
+            Комментарий
+            <textarea
+              class="call-back-comment"
+              name="comment"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+
+          <label>
+            Соглашаюсь с рассылкой и принимаю Условия договора
+            <input type="checkbox" />
+          </label>
+        </form>
       </div>
     </div>
 
