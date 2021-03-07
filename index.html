@@ -520,37 +520,57 @@
           </svg>
         </button>
         <form class="call-back-form" name="call-back-form">
-          <p>Оставьте свои данные, мы вам перезвоним</p>
+          <p class="cb-form-title">Оставьте свои данные, мы вам перезвоним</p>
 
-          <label>
+          <label class="cb-name">
             Имя
-            <input class="call-back-input" name="name" type="name" />
+            <div class="cb-input-container">
+              <input class="cb-input-name" name="name" type="name" />
+              <svg class="cb-icon" width="18" height="18">
+                <use href="./images/icons-sprite.svg#person-icon"></use>
+              </svg>
+            </div>
           </label>
 
-          <label>
+          <label class="cb-tel">
             Телефон
-            <input class="call-back-input" name="email" type="tel" />
+            <div class="cb-input-container">
+              <input class="cb-input-tel" name="tel" type="tel" />
+              <svg class="cb-icon" width="18" height="18">
+                <use href="./images/icons-sprite.svg#phone-icon"></use>
+              </svg>
+            </div>
           </label>
 
-          <label>
+          <label class="cb-email">
             Почта
-            <input class="call-back-input" name="email" type="email" />
+            <div class="cb-input-container">
+              <input class="cb-input-email" name="email" type="email" />
+              <svg class="cb-icon" width="18" height="18">
+                <use href="./images/icons-sprite.svg#email-icon"></use>
+              </svg>
+            </div>
           </label>
 
-          <label>
+          <label class="cb-comment">
             Комментарий
-            <textarea
-              class="call-back-comment"
-              name="comment"
-              cols="30"
-              rows="10"
-            ></textarea>
+            <div class="cb-textarea-container">
+              <textarea
+                type="text"
+                class="cb-textarea"
+                name="comment"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
           </label>
 
-          <label>
-            Соглашаюсь с рассылкой и принимаю Условия договора
-            <input type="checkbox" />
+          <label class="cb-terms">
+            <input class="checkbox" type="checkbox" />
+            <span class="checkbox-border"></span>
+            Соглашаюсь с рассылкой и принимаю
+            <span class="terms"> Условия договора</span>
           </label>
+          <button class="cb-form-submit" type="submit">Отправить</button>
         </form>
       </div>
     </div>
