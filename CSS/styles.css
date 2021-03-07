@@ -825,6 +825,7 @@ FILTER BUTTONS*/
 /* NAME-TEL-EMAIL-INPUT */
 
 .cb-label {
+  position: relative;
   display: block;
   margin-top: 10px;
   font-size: 12px;
@@ -879,6 +880,13 @@ FILTER BUTTONS*/
   cursor: pointer;
 }
 
+.cb-input {
+  margin-top: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 42px;
+}
+
 .checkbox {
   appearance: none;
 }
@@ -889,11 +897,4 @@ FILTER BUTTONS*/
   background-image: url(../images/checkbox.svg);
   background-size: contain;
   background-origin: border-box;
-}
-
-.cb-input {
-  margin-top: 4px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 42px;
 }
