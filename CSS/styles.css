@@ -827,10 +827,17 @@ FILTER BUTTONS*/
 .cb-label {
   position: relative;
   display: block;
-  margin-top: 10px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
+}
+
+.cb-label:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.cb-label:first-of-type {
+  margin-top: 12px;
 }
 
 .cb-terms {
