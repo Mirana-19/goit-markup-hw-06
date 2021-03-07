@@ -564,7 +564,6 @@ footer {
   color: var(--footer-text-color);
   background-color: var(--h1-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  outline: none;
   border-radius: 4px;
 }
 
@@ -581,7 +580,6 @@ footer {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
-  outline: none;
   border-radius: 4px;
 }
 
@@ -604,7 +602,6 @@ FILTER BUTTONS*/
   color: var(--title-color);
   background-color: var(--background-color);
   border-radius: 4px;
-  outline: none;
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
     box-shadow 250ms var(--cubic);
 }
@@ -756,6 +753,7 @@ FILTER BUTTONS*/
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  transition: fill 250ms var(--cubic);
 }
 
 .close-modal-btn:hover,
@@ -785,7 +783,6 @@ FILTER BUTTONS*/
   border: 1px solid;
   border-color: rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  outline: none;
   transition: border-color 250ms var(--cubic);
 }
 
@@ -861,7 +858,6 @@ FILTER BUTTONS*/
   line-height: 1.875;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  outline: none;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
