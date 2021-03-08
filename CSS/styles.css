@@ -883,6 +883,11 @@ FILTER BUTTONS*/
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.cb-form-submit:hover,
+.cb-form-submit:focus {
+  background-color: rgb(24, 140, 232);
+}
+
 .cb-icon {
   position: absolute;
   top: 50%;
