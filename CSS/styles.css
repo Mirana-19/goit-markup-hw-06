@@ -793,7 +793,7 @@ FILTER BUTTONS*/
   outline: none;
 }
 
-.cb-label > input:focus-within,
+.input-container > input:focus-within,
 .cb-textarea:focus-within {
   border-color: var(--accent-color);
 }
@@ -825,8 +825,16 @@ FILTER BUTTONS*/
 /* NAME-TEL-EMAIL-INPUT */
 
 .cb-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}
+
+.input-container {
   position: relative;
   display: block;
+  margin-top: 4px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -874,6 +882,7 @@ FILTER BUTTONS*/
 .cb-icon {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   left: 12px;
 }
 
@@ -888,7 +897,6 @@ FILTER BUTTONS*/
 }
 
 .cb-input {
-  margin-top: 4px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 42px;
