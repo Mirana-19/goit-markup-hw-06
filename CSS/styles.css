@@ -572,6 +572,10 @@ footer {
   border-radius: 4px;
 }
 
+.sign-up-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .sign-up-btn {
   display: flex;
   align-items: center;
@@ -774,7 +778,7 @@ FILTER BUTTONS*/
   padding: 12px 16px;
 }
 
-::-webkit-input-placeholder {
+.cb-textarea::-webkit-input-placeholder {
   font-size: 14px;
   font-style: normal;
   line-height: 1.14;
@@ -815,14 +819,6 @@ FILTER BUTTONS*/
   line-height: 1.15;
   text-align: center;
   color: var(--title-color);
-}
-
-.cb-name {
-  display: block;
-  margin-top: 12px;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
 }
 
 /* NAME-TEL-EMAIL-INPUT */
